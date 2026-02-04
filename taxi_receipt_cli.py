@@ -437,10 +437,10 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 사용 예시:
-  python taxi_receipt_cli.py image1.jpg image2.jpg image3.jpg
-  python taxi_receipt_cli.py ./receipts/
-  python taxi_receipt_cli.py *.jpg -o ~/Desktop -p 1월_택시비
-  python taxi_receipt_cli.py *.jpg -u 홍길동 -d 야근
+  python taxiproof.py image1.jpg image2.jpg image3.jpg
+  python taxiproof.py ./receipts/
+  python taxiproof.py *.jpg -o ~/Desktop -p 1월_택시비
+  python taxiproof.py *.jpg -u 홍길동 -d 야근
         """
     )
 
